@@ -53,7 +53,7 @@ portfolio/
    ```env
    EMAIL_USER=your-email@gmail.com
    EMAIL_PASS=your-app-password
-   PORT=3000
+   PORT=3001
    ```
    
    **Note**: For Gmail, you'll need to:
@@ -79,7 +79,7 @@ This uses `nodemon` to automatically restart the server when files change.
 npm start
 ```
 
-The server will start on `http://localhost:3000` (or the port specified in your `.env` file).
+The server will start on `http://localhost:3001` (or the port specified in your `.env` file).
 
 ## API Endpoints
 
@@ -166,7 +166,7 @@ Edit the CSS variables in `public/styles.css` to change the color scheme:
    ```
    EMAIL_USER=your-email@gmail.com
    EMAIL_PASS=your-app-password
-   PORT=3000
+   PORT=3001
    ```
 
 3. Deploy:
@@ -210,7 +210,7 @@ Edit the CSS variables in `public/styles.css` to change the color scheme:
 
 | Variable | Description | Required | Default |
 |----------|-------------|----------|---------|
-| `PORT` | Server port | No | 3000 |
+| `PORT` | Server port | No | 3001 |
 | `EMAIL_USER` | Email address for sending emails | No | sayamikamont53@gmail.com |
 | `EMAIL_PASS` | Email password/app password | No | (empty) |
 
